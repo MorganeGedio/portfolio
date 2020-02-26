@@ -1,9 +1,47 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from './images/logo_portfolio.png';
+import './NavBar.css';
 
-const NavBar = () => (
-    <div>
-        <h2>You're lost !</h2>
-    </div>
-);
+class NavBar extends React.Component {
+  render() {
+    return (
+      <nav className="Nav">
+        <div className="Nav__container">
+          <div className="Brand">
+            <Link to="/" className="Nav__brand">
+              <img src={logo} alt="Logo Image" />
+            </Link>
+          </div>
 
+          <div className="Links">
+            <div className="Nav_left">
+              <ul className="Nav__item-wrapper">
+                <li className="Nav__item">
+                  <Link to="/" className="item">Home</Link>
+                </li>
+                <li className="Nav__item">
+                  <Link to="/about" className="item">About</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="Nav_right">
+              <ul className="Nav__item-wrapper">
+                <li className="Nav__item">
+                  <a href="https://www.linkedin.com/in/morganegedio/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+                </li>
+                <li className="Nav__item">
+                  <a href="https://github.com/MorganeGedio" target="_blank"> <i class="fab fa-github"></i> </a>
+                </li>
+                <li className="Nav__item">
+                  <a href="mailto:morgane.gedio@gmail.com"> <i class="fas fa-at"></i> </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
+  }
+}
 export default NavBar;

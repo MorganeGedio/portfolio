@@ -1,0 +1,31 @@
+.Nav__container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #FD746C;
+  padding: 10px;
+}
+
+.Links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  min-width: 0;
+  flex-flow: wrap;
+}
+
+.Nav img {
+  width: 150px;
+  height: 70px;
+}
+
+a {
+  margin: 10px;
+}
+
+.Nav ul {
+  list-style-type: none;
+  display: flex;
+}
