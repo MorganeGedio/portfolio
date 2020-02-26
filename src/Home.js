@@ -5,7 +5,8 @@ import './Project.css';
 
 const Home = () => (
     <div>
-        <h1>Bonjour !</h1>
+        <h1>Bonjour ! Hello ! Hola ! </h1>
+        <h1> I am Morgane. </h1>
           <h2>Projects</h2>
             <div className="project-container">
               <Thumbnail
