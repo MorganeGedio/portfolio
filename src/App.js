@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
+import NotFound from './NotFound.js';
 import logo from './images/logo_portfolio.png';
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route component={NotFound} />
 
         <div className="navigation">
           <img src={logo}className="logo" alt="Logo Image" />
