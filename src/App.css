@@ -37,3 +37,15 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+a {
+  color: #2C3E50;
+}
+
+a:hover {
+  color: #FD746C;
+}
+

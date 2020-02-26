@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './Project.css';
 
-function Thumbnail(props) {
+function Project(props) {
   return (
     <div className="Project">
         <div className="project-image">
@@ -17,4 +17,4 @@ function Thumbnail(props) {
   );
 }
 
-export default Thumbnail;
+export default Project;
