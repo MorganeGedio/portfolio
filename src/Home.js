@@ -1,14 +1,19 @@
 import React from 'react';
 import Project from './Project.js';
 import './App.css';
-import './Project.css';
+import './Home.css';
 
 const Home = () => (
-    <div>
-        <h1>Bonjour ! Hello ! Hola ! </h1>
-        <h1> I am Morgane. </h1>
-          <p> I am a Junior Full-Stack Developer with technical advisor and account manager background. </p>
-        <h2>Projects</h2>
+    <div className="container">
+      <div className="presentation">
+        <h1>BONJOUR ! HELLO ! HOLA ! </h1>
+        <h2> I'm Morgane. </h2>
+        <div className="description">
+          <p> I'm a Junior Full-Stack Developer from France, living in Berlin.</p>
+          <p> I have a background in law and I have worked for 8 years as technical advisor and account manager background. </p>
+        </div>
+      </div>
+        <h2 className="project">Projects</h2>
           <div className="project-container">
             <Project
             path="https://cocktail-hour.herokuapp.com/"

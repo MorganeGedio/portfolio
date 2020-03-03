@@ -2,6 +2,10 @@
   width: 400px;
 }
 
+h2 {
+  padding: 30px;
+}
+
 .project-container {
   display: flex;
   justify-content: space-around;

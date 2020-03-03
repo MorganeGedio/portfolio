@@ -1,0 +1,26 @@
+.presentation {
+  margin: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.project {
+  font-size: 25px;
+}
+
+.description {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
