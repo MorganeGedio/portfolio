@@ -17,6 +17,11 @@ p {
 
 .project {
   font-size: 25px;
+  text-align: center;
+}
+
+.project-container {
+  text-align: center;
 }
 
 .description {

@@ -5,10 +5,9 @@ import './About.css';
 
 const About = () => (
     <div>
-      <h1 className="main-title">About</h1>
       <div className="about-container">
           <div className="experience-container">
-            <h2 className="experience">Experience</h2>
+            <h2 className="about-header highlight-header">Experience</h2>
               <Experience
                 path="https://www.lewagon.com/"
                 company="Le Wagon"
@@ -50,7 +49,7 @@ const About = () => (
               />
     </div>
       <div className="education-container">
-        <h2 className="education">Education</h2>
+        <h2 className="about-header highlight-header">Education</h2>
             <div className="education-container">
               <Education
                 school="Le Wagon"

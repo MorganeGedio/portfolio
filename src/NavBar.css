@@ -1,10 +1,9 @@
 .Nav__container {
   display: flex;
   justify-content: space-between;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #FD746C;
-  padding: 10px;
+  /* border-bottom: solid 1px #FD746C; */
+  padding: 50px 0px;
+  margin: 0px 150px;
 }
 
 .Links {
@@ -21,7 +20,7 @@
   height: 70px;
 }
 
-a {
+.item {
   margin: 10px;
 }
 

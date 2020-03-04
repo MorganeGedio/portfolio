@@ -1,8 +1,40 @@
-.main-title {
-    text-align: center;
-}
-
 .about-container {
     margin: 10px 150px;
     padding-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.main-info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.about-header {
+    padding: 10px 0px;
+}
+
+.sub-info {
+    padding-left: 15px;
+}
+
+.highlight-header {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight-header:after {
+    background-color: #FD746C;
+    bottom: 0;
+    content: ' ';
+    display: block;
+    height: 49%;
+    left: 15px;
+    opacity: 0.8;
+    position: absolute;
+    width: calc(15%);
+    z-index: -1;
 }

@@ -17,23 +17,23 @@ class NavBar extends React.Component {
           <div className="Links">
             <div className="Nav_left">
               <ul className="Nav__item-wrapper">
-                <li className="Nav__item">
-                  <Link to="/" className="item">Home</Link>
+                <li className="item">
+                  <Link to="/">Home</Link>
                 </li>
-                <li className="Nav__item">
-                  <Link to="/about" className="item">About</Link>
+                <li className="item">
+                  <Link to="/about">About</Link>
                 </li>
               </ul>
             </div>
             <div className="Nav_right">
-              <ul className="Nav__item-wrapper">
-                <li className="Nav__item">
+              <ul className="item-wrapper">
+                <li className="item">
                   <a href="https://www.linkedin.com/in/morganegedio/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
                 </li>
-                <li className="Nav__item">
+                <li className="item">
                   <a href="https://github.com/MorganeGedio" target="_blank"> <i class="fab fa-github"></i> </a>
                 </li>
-                <li className="Nav__item">
+                <li className="item">
                   <a href="mailto:morgane.gedio@gmail.com"> <i class="fas fa-at"></i> </a>
                 </li>
               </ul>

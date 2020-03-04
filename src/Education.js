@@ -5,11 +5,11 @@ function Education(props) {
   return (
     <div className="Education">
         <span>
-        <h3>{props.school}</h3>
+        <span className="main-info">{props.school}</span>
         </span>
         <span>{props.date}</span>
         <span>{props.city}</span>
-        <p className="education-area">{props.studies}</p>
+        <p className="sub-info">{props.studies}</p>
     </div>
   );
 }
