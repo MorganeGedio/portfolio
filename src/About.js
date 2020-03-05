@@ -8,7 +8,7 @@ const About = () => (
     <div>
       <div className="about-container">
           <div className="experience-container">
-            <h2 className="about-header highlight-header">Experience</h2>
+            <h2 className="header highlight-header">Experience</h2>
               <Experience
                 path="https://www.lewagon.com/"
                 company="Le Wagon"
@@ -50,7 +50,7 @@ const About = () => (
               />
     </div>
       <div className="education-container">
-        <h2 className="about-header highlight-header">Education</h2>
+        <h2 className="header highlight-header">Education</h2>
             <div className="education-container">
               <Education
                 school="Le Wagon"
@@ -75,7 +75,7 @@ const About = () => (
           </div>
         </div>
 
-        <h2 className="about-header highlight-header">Languages</h2>
+        <h2 className="header highlight-header">Languages</h2>
           <Language
                   language="French"
                   level="| Native"
@@ -93,7 +93,7 @@ const About = () => (
                   level="| Basic level"
           />
 
-        <h2 className="about-header highlight-header">Hobbies</h2>
+        <h2 className="header highlight-header">Hobbies</h2>
           <p> <i class="far fa-compass"></i> <strong>Traveling</strong> [on my bucket list : Nepal, Georgia & Mexico] </p> 
           <p> <i class="fas fa-cookie-bite"></i> <strong>Cooking</strong> [my favorite spring recipe <a href="https://sallysbakingaddiction.com/homemade-fresh-summer-rolls-with-easy-peanut-dipping-sauce/" target="_blank"><i class="fas fa-utensils"></i></a>]</p>
           <p> <i class="fas fa-hiking"></i> <strong>Hiking</strong> [best mountain <a href="https://en.wikipedia.org/wiki/Los_Nevados_National_Natural_Park" target="_blank"><i class="fas fa-mountain"></i>]</a></p>

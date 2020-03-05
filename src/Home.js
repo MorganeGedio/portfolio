@@ -13,7 +13,7 @@ const Home = () => (
           <p> I have a background in law and I have worked for 8 years as technical advisor and account manager background. </p>
         </div>
       </div>
-        <h2 className="project">Projects</h2>
+        <h2 className="header highlight-header">Projects</h2>
           <div className="project-container">
             <Project
             path="https://cocktail-hour.herokuapp.com/"
