@@ -28,3 +28,26 @@
   list-style-type: none;
   display: flex;
 }
+
+.active {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.active:hover {
+  color: #2C3E50;
+}
+
+.active:after {
+  background-color: #FD746C;
+  content: ' ';
+  height: 50%;
+  opacity: 1;
+  position: absolute;
+  opacity: 0.8;
+  right: 7px;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}

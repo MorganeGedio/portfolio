@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import logo from './images/logo_portfolio.png';
 import './NavBar.css';
 
@@ -17,11 +17,11 @@ class NavBar extends React.Component {
           <div className="Links">
             <div className="Nav_left">
               <ul className="Nav__item-wrapper">
+                {/* <li className="item">
+                  <NavLink to="/" activeClassName="active">Home</NavLink>
+                </li> */}
                 <li className="item">
-                  <Link to="/">Home</Link>
-                </li>
-                <li className="item">
-                  <Link to="/about">About</Link>
+                  <NavLink to="/about" activeClassName="active">About</NavLink>
                 </li>
               </ul>
             </div>

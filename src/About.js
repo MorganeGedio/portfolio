@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from './Experience.js';
 import Education from './Education.js';
+import Language from './Language.js';
 import './About.css';
 
 const About = () => (
@@ -73,6 +74,33 @@ const About = () => (
               />
           </div>
         </div>
+
+        <h2 className="about-header highlight-header">Languages</h2>
+          <Language
+                  language="French"
+                  level="| Native"
+          />
+          <Language
+                  language="English"
+                  level="| Fluent"
+          />
+          <Language
+                  language="Spanish"
+                  level="| Professional proficiency"
+          />
+          <Language
+                  language="German"
+                  level="| Basic level"
+          />
+
+        <h2 className="about-header highlight-header">Hobbies</h2>
+          <p> <i class="far fa-compass"></i> <strong>Traveling</strong> [on my bucket list : Nepal, Georgia & Mexico] </p> 
+          <p> <i class="fas fa-cookie-bite"></i> <strong>Cooking</strong> [my favorite spring recipe <a href="https://sallysbakingaddiction.com/homemade-fresh-summer-rolls-with-easy-peanut-dipping-sauce/" target="_blank"><i class="fas fa-utensils"></i></a>]</p>
+          <p> <i class="fas fa-hiking"></i> <strong>Hiking</strong> [best mountain <a href="https://en.wikipedia.org/wiki/Los_Nevados_National_Natural_Park" target="_blank"><i class="fas fa-mountain"></i>]</a></p>
+          <p> <i class="fas fa-camera-retro"></i> <strong>Taking pictures</strong> [some <i class="fas fa-images"></i> are available <a href="http://frijolyfrailejon.surge.sh/" target="_blank">here</a> or <a href="https://corossolandme.com/" target="_blank">here</a>]</p>
+          <p> <i class="fas fa-book-open"></i> <strong>Reading</strong></p>
+
+
       </div>
   </div>
 );
