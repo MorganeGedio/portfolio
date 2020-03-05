@@ -10,7 +10,7 @@ const Home = () => (
         <h2> I'm Morgane. </h2>
         <div className="description">
           <p> I'm a Junior Full-Stack Developer from France, living in Berlin.</p>
-          <p> I have a background in law and I have worked for 8 years as technical advisor and account manager background. </p>
+          <p> I have a background in law and I have worked for 8 years as a technical advisor and an account manager. </p>
         </div>
       </div>
         <h2 className="header highlight-header">Projects</h2>
