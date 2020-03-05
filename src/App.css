@@ -30,3 +30,10 @@ a:hover {
   color: #FD746C;
 }
 
+.not-found {
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+  width: 30%;
+}
