@@ -21,7 +21,7 @@ class NavBar extends React.Component {
                   <NavLink to="/" activeClassName="active">Home</NavLink>
                 </li> */}
                 <li className="item">
-                  <NavLink to="/about" activeClassName="active">About</NavLink>
+                  <NavLink to="/portfolio/about" activeClassName="active">About</NavLink>
                 </li>
               </ul>
             </div>
