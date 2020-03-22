@@ -96,7 +96,7 @@ const About = () => (
         <h2 className="header highlight-header">Hobbies</h2>
           <p> <i class="far fa-compass"></i> <strong>Traveling</strong> [on my bucket list : Nepal, Georgia & Mexico] </p> 
           <p> <i class="fas fa-cookie-bite"></i> <strong>Cooking</strong> [my favorite spring recipe <a href="https://sallysbakingaddiction.com/homemade-fresh-summer-rolls-with-easy-peanut-dipping-sauce/" target="_blank"><i class="fas fa-utensils"></i></a>]</p>
-          <p> <i class="fas fa-hiking"></i> <strong>Hiking</strong> [highest mountain climbed <a href="https://en.wikipedia.org/wiki/Los_Nevados_National_Natural_Park" target="_blank"><i class="fas fa-mountain"></i>]</a></p>
+          <p> <i class="fas fa-hiking"></i> <strong> Hiking</strong> [highest mountain climbed <a href="https://en.wikipedia.org/wiki/Los_Nevados_National_Natural_Park" target="_blank"><i class="fas fa-mountain"></i>]</a></p>
           <p> <i class="fas fa-camera-retro"></i> <strong>Taking pictures</strong> [some of my pictures <a href="http://frijolyfrailejon.surge.sh/" target="_blank"><i class="fas fa-image"></i></a> or <a href="https://corossolandme.com/" target="_blank"><i class="far fa-image"></i></a>]</p>
           <p> <i class="fas fa-book-open"></i> <strong>Reading</strong></p>
 
