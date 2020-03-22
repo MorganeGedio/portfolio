@@ -14,7 +14,7 @@ class App extends React.Component {
             <div>
               <NavBar />
               <Switch>
-                <Route exact path="/" component={Home} />
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} /> 
                 <Route path="/about" component={About} />
                 <Route component={NotFound} />
               </Switch>
