@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
-import Home from './Home.js';
-import About from './About.js';
-import NotFound from './NotFound.js';
-import NavBar from './NavBar.js';
-import './App.css';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import NotFound from './components/NotFound.js';
+import NavBar from './components/NavBar.js';
+import './css/App.css';
 
 class App extends React.Component {
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import './Project.css';
+import '../css/App.css';
+import '../css/Project.css';
 
 function Project(props) {
   return (

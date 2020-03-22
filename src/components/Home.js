@@ -1,7 +1,7 @@
 import React from 'react';
-import Project from './Project.js';
-import './App.css';
-import './Home.css';
+import Project from '../components/Project.js';
+import '../css/App.css';
+import '../css/Home.css';
 
 const Home = () => (
     <div className="container">

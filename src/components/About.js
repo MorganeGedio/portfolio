@@ -1,8 +1,8 @@
 import React from "react";
-import Experience from './Experience.js';
-import Education from './Education.js';
-import Language from './Language.js';
-import './About.css';
+import Experience from '../components/Experience.js';
+import Education from '../components/Education.js';
+import Language from '../components/Language.js';
+import '../css/About.css';
 
 const About = () => (
     <div>
